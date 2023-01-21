@@ -16,6 +16,7 @@ const App: React.FC = () => {
       <main className={styles.appMain}>
         <div className={styles.appRow}>
             <div className={styles.appMainDiv}>
+              nome do investe
               <div className={styles.appChart}>
               <Chart/>
               </div>
@@ -45,6 +46,7 @@ const App: React.FC = () => {
               <Chart/>
               </div>
             </div>
+            
             <br />
             <span style={{color:"transparent"}}>Spcci</span>
         </div>

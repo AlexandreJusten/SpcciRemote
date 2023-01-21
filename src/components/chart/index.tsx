@@ -12,7 +12,7 @@ function Chart(){
             }
         }
     }
-
+        
     const series=[{
             data: [
               {
@@ -262,7 +262,6 @@ function Chart(){
 
     return(
        <ApexChart options={options} series={series} type="candlestick" />
-       
     )
 }
 export default Chart
